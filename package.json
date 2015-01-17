@@ -1,0 +1,32 @@
+{
+  "name": "is-media-type",
+  "description": "Determine whether a string is a valid media query type specified by the W3C.",
+  "author": "John Otander",
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnotander/is-media-type.git"
+  },
+  "keywords": [
+    "css",
+    "media-query",
+    "queries",
+    "media-type"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnotander/is-media-type/issues"
+  },
+  "homepage": "https://github.com/johnotander/is-media-type",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
