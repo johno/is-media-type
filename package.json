@@ -25,7 +25,9 @@
     "url": "https://github.com/johnotander/is-media-type/issues"
   },
   "homepage": "https://github.com/johnotander/is-media-type",
-  "dependencies": {},
+  "dependencies": {
+    "media-query-types": "0.0.2"
+  },
   "devDependencies": {
     "mocha": "*"
   }

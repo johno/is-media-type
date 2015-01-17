@@ -1,7 +1,11 @@
 'use strict';
 
-module.exports = function isMediaType(options) {
-  options = options || {};
+var mediaQueryTypes = require('media-query-types');
 
-  return true;
+module.exports = function isMediaType(mediaType) {
+  if(typeof mediaType !== 'string') {
+    throw new TypeError('is-media-type expects a string');
+  }
+
+  return mediaQueryTypes().indexOf(mediaType) != -1;
 }
