@@ -1,6 +1,6 @@
 {
   "name": "is-media-type",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Determine whether a string is a valid media query type specified by the W3C.",
   "author": {
     "name": "John Otander",

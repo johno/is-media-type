@@ -1,4 +1,4 @@
-# is-media-type [![Build Status](https://secure.travis-ci.org/johnotander/is-media-type.png?branch=master)](https://travis-ci.org/johnotander/is-media-type)
+# is-media-type [![Build Status](https://secure.travis-ci.org/johnotander/is-media-type.png?branch=master)](https://travis-ci.org/johnotander/is-media-type) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 Determine whether a string is a valid media query type specified by the W3C.
 
