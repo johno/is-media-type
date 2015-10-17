@@ -1,14 +1,18 @@
 {
   "name": "is-media-type",
-  "description": "Determine whether a string is a valid media query type specified by the W3C.",
-  "author": "John Otander",
   "version": "0.0.1",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
+  "description": "Determine whether a string is a valid media query type specified by the W3C.",
+  "author": {
+    "name": "John Otander",
+    "email": "johnotander@gmail.com",
+    "url": "johnotander.com"
   },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "test": "mocha test"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -26,9 +30,9 @@
   },
   "homepage": "https://github.com/johnotander/is-media-type",
   "dependencies": {
-    "media-query-types": "0.0.2"
+    "media-query-types": "^0.1.0"
   },
   "devDependencies": {
-    "mocha": "*"
+    "ava": "*"
   }
 }

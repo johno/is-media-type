@@ -1,6 +1,4 @@
-# is-media-type
-
-[![Build Status](https://secure.travis-ci.org/johnotander/is-media-type.png?branch=master)](https://travis-ci.org/johnotander/is-media-type)
+# is-media-type [![Build Status](https://secure.travis-ci.org/johnotander/is-media-type.png?branch=master)](https://travis-ci.org/johnotander/is-media-type)
 
 Determine whether a string is a valid media query type specified by the W3C.
 
@@ -15,12 +13,11 @@ npm install --save is-media-type
 ## Usage
 
 ```javascript
-var isMediaType = require('is-media-type');
+var isMediaType = require('is-media-type')
 
-isMediaType('all')     // => true
-isMediaType('braille') // => true
-
-isMediaType('foo')     // => false
+isMediaType('all')  // => true
+isMediaType('braille')  // => true
+isMediaType('foo')  // => false
 ```
 
 ## License
@@ -37,4 +34,6 @@ MIT
 
 Crafted with <3 by John Otander ([@4lpine](https://twitter.com/4lpine)).
 
-This package was initially generated with [yeoman](http://yeoman.io) and the [p generator](https://github.com/johnotander/generator-p.git).
+***
+
+> This package was initially generated with [yeoman](http://yeoman.io) and the [p generator](https://github.com/johnotander/generator-p.git).
